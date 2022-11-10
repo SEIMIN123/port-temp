@@ -15,11 +15,13 @@
 				<h1><a href="#intro">MY PORTFOLIO</a></h1>
 				<nav>
 					<ul>
-						<li><a href="#intro">HOME</a></li>
+						<!-- <li><a href="#intro">HOME</a></li> -->
 						<li><a href="#one">IT'S ME</a></li>
 						<li><a href="#two">CERTIFICATE</a></li>
 						<li><a href="#three">EDUCATION</a></li>
 						<li><a href="#work">MY WORK</a></li>
+						<li><a href="#five">PROJECT-1</a></li>
+						<li><a href="#six">PROJECT-2</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -127,10 +129,10 @@
 				</div>
 			</section>
 
-			<section id="one" class="main style2 right dark fullscreen">
+			<section id="five" class="main style2 right dark fullscreen">
 				<div class="content box style2">
-					<div class="pro-1"></div>
-					<video class="video-5" autoplay muted loop>
+					<div id="pro-1"></div>
+					<video class="video-2" autoplay muted loop>
 						<source src="./images/manhattan.mp4">
 					</video>
 					<header>
@@ -138,9 +140,23 @@
 						<br>
 						<h2>PROJECT-1</h2>
 					</header>
-				</p>
 				</div>
-				<!-- <a href="#two" class="button style2 down anchored">Next</a> -->
+				<a href="#two" class="button style2 down anchored">Next</a>
+			</section>
+
+			<section id="six" class="main style2 left dark fullscreen">
+				<div class="content box style2">
+					<div id="pro-2"></div>
+					<video class="video-3" autoplay muted loop>
+						<source src="./images/street.mp4">
+					</video>
+					<header>
+						<br>
+						<br>
+						<h2>PROJECT-2</h2>
+					</header>
+				</div>
+				<!-- <a href="#three" class="button style2 down anchored">Next</a> -->
 			</section>
 
 		<!-- Contact -->
@@ -192,6 +208,20 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+
+				const pro1 = document.getElementById('pro-1');
+				pro1.addEventListener('click', function () {
+			    let page = 'https://seimin123.github.io/contents-OTT/';
+			    location.href = page;
+			});
+
+			const pro2 = document.getElementById('pro-2');
+				pro2.addEventListener('click', function () {
+			    let page = 'https://seimin123.github.io/contents-novel/';
+			    location.href = page;
+			});
+			</script>
 
 	</body>
 </html>

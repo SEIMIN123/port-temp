@@ -424,9 +424,9 @@ input, select, textarea {
 
 		body:before {
 			-moz-animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important;
-			-webkit-animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important;
+			/* -webkit-animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important;
 			-ms-animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important;
-			animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important;
+			animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important; */
 			-moz-transform-origin: 50% 50%;
 			-webkit-transform-origin: 50% 50%;
 			-ms-transform-origin: 50% 50%;
@@ -1861,6 +1861,7 @@ input, select, textarea {
 			top: 0;
 			height: 3em;
 			line-height: 3em;
+			
 		}
 
 			#header nav ul {
@@ -2295,7 +2296,7 @@ input, select, textarea {
 	    .video-3{
 	    	position: absolute;
 	    	margin-left: -10vw;
-	    	margin-top: -22vh;
+	    	margin-top: -62vh;
 	    	width: 115vw;
 	    	height: auto;
 	    	z-index: -1;
@@ -2321,12 +2322,30 @@ input, select, textarea {
 	    	opacity: 0.3;
     }
 
-	.pro-1 {
+	#pro-1 {
 
 		width: 30vw;
 		height: 40vh;
-		border: 1px solid black;
 		border-radius: 5px;
+		background-image: url(/images/ott.png);
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+		cursor: pointer;
+	}
+
+	#pro-2 {
+
+		width: 30vw;
+		height: 40vh;
+		border-radius: 5px;
+		background-image: url(/images/ghost.png);
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+		cursor: pointer;
 	}
 
 
