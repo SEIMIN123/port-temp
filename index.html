@@ -22,6 +22,7 @@
 						<li><a href="#work">MY WORK</a></li>
 						<li><a href="#five">PROJECT-1</a></li>
 						<li><a href="#six">PROJECT-2</a></li>
+						<li><a href="#seven">PROJECT-3</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -110,7 +111,7 @@
 								<a href="images/intro.jpg" class="image fit"><img src="images/thumbs/01.jpg" title="The Anonymous Red" alt="" /></a>
 							</article>
 							<article class="from-right">
-								<a href="images/me.jpg" class="image fit"><img src="images/thumbs/02.jpg" title="Airchitecture II" alt="" /></a>
+								<a href="images/fulls/02.jpg" class="image fit"><img src="images/thumbs/02.jpg" title="Airchitecture II" alt="" /></a>
 							</article>
 							<article class="from-left">
 								<a href="images/fulls/03.jpg" class="image fit"><img src="images/thumbs/03.jpg" title="Air Lounge" alt="" /></a>
@@ -141,7 +142,7 @@
 						<h2>PROJECT-1</h2>
 					</header>
 				</div>
-				<a href="#two" class="button style2 down anchored">Next</a>
+				<a href="#six" class="button style2 down anchored">Next</a>
 			</section>
 
 			<section id="six" class="main style2 left dark fullscreen">
@@ -156,7 +157,22 @@
 						<h2>PROJECT-2</h2>
 					</header>
 				</div>
-				<!-- <a href="#three" class="button style2 down anchored">Next</a> -->
+				<a href="#seven" class="button style2 down anchored">Next</a>
+			</section>
+
+			<section id="seven" class="main style2 right dark fullscreen">
+				<div class="content box style2">
+					<div id="pro-3"></div>
+					<video class="video-2" autoplay muted loop>
+						<source src="./images/manhattan.mp4">
+					</video>
+					<header>
+						<br>
+						<br>
+						<h2>PROJECT-3</h2>
+					</header>
+				</div>
+				<!-- <a href="#six" class="button style2 down anchored">Next</a> -->
 			</section>
 
 		<!-- Contact -->
@@ -219,6 +235,12 @@
 			const pro2 = document.getElementById('pro-2');
 				pro2.addEventListener('click', function () {
 			    let page = 'https://seimin123.github.io/contents-novel/';
+			    location.href = page;
+			});
+
+			const pro3 = document.getElementById('pro-3');
+				pro3.addEventListener('click', function () {
+			    let page = 'https://seimin123.github.io/contents-music/';
 			    location.href = page;
 			});
 			</script>
